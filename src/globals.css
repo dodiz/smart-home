@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-thin-italic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-extralight-italic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-light-italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-regular-italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-medium-italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-semibold-italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-bold-italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-extrabold-italic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tomorrow";
+  src: url("/fonts/tomorrow-black-italic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Tomorrow";
+  overflow: hidden;
+}
