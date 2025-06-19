@@ -4,6 +4,8 @@ import { Background } from "./ui/background";
 import { Frame } from "./ui/frame";
 import { Button } from "./ui/button";
 import { ArrowRightIcon } from "./ui/arrow-right-icon";
+import { Devices } from "./components/devices";
+import { Page } from "./ui/page";
 
 export function App() {
   const [active, setActive] = useState(true);
@@ -13,12 +15,12 @@ export function App() {
     return () => clearTimeout(tid);
   }, [active]);
   return (
-    <div className="w-screen h-screen bg-background">
+    <div className="w-screen h-screen bg-background p-9">
       <ArwesProviders>
         <Background />
-        <div className="flex h-full items-start">
-          <Frame className="w-[30rem] h-full p-20">
-            <div className="flex gap-8 flex-col">
+        <div className="flex h-full gap-2 items-start">
+          <Frame variant="octagon" className="w-[30rem] h-full">
+            <div className="flex gap-4 flex-col p-4">
               <Button color="primary" className="flex justify-between">
                 Nikki <ArrowRightIcon />
               </Button>
@@ -33,8 +35,9 @@ export function App() {
               </Button>
             </div>
           </Frame>
-          <Frame className="flex-1 h-full">
-            <div className="flex gap-8 flex-col"></div>
+          <Frame variant="underline" className="flex-1 h-full">
+            <Devices />
+            <Page />
           </Frame>
         </div>
       </ArwesProviders>
